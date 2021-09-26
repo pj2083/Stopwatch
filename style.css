@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(107, 238, 90);
     display: flex;
     justify-content:center;
     align-items: center;
@@ -26,7 +26,43 @@ body{
     border: 2px solid black;
     border-radius:5px;
     cursor: pointer;
+    background-color: rgb(172, 125, 54);
 }
 .btn:hover{
-color: rgb(88, 124, 124);
+color: rgb(255, 255, 255);
+}
+@media(max-width:518px){
+    body{
+        background-color: rgb(107, 238, 90);
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+    }
+    .digit{
+        font-size: 40px;
+    }
+    .btn_container{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .btn{
+        padding: 9px 16px;
+    font-size: 3px;
+    margin: 8px 14px;
+    border: 1px solid black;
+    cursor: pointer;
+    }
+    #start{
+        font-size: 8px;
+    }
+    #stop{
+        font-size: 8px;
+    }
+    #reset{
+        font-size: 8px;
+    }
+    .txt{
+        font-size: 10px;
+    }
 }
