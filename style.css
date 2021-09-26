@@ -1,12 +1,13 @@
 body{
-    background-color: rgb(107, 238, 90);
+    /* background-color: rgb(107, 238, 90); */
+    background-color: rgb(7, 28, 43);
     display: flex;
     justify-content:center;
     align-items: center;
     height: 100vh;
 }
 .container{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 .digit{
     font-size: 100px;
@@ -33,7 +34,7 @@ color: rgb(255, 255, 255);
 }
 @media(max-width:518px){
     body{
-        background-color: rgb(107, 238, 90);
+        background-color: rgb(7, 28, 43);
         display: flex;
         justify-content:center;
         align-items: center;
