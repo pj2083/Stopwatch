@@ -11,6 +11,7 @@ body{
 .digit{
     font-size: 100px;
     font-weight: bold;
+     color:black;
 }
 .txt{
     font-weight: bold;
