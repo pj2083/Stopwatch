@@ -1,7 +1,6 @@
 body{
-    /* background-color: rgb(107, 238, 90); */
-    background-color: rgb(7, 28, 43);
-    display: flex;
+     background-color:lightblue; 
+     display: flex;
     justify-content:center;
     align-items: center;
     height: 100vh;
