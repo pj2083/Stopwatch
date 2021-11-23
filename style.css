@@ -34,7 +34,7 @@ color: rgb(255, 255, 255);
 }
 @media(max-width:518px){
     body{
-        background-color: rgb(7, 28, 43);
+         background-color:lightblue; 
         display: flex;
         justify-content:center;
         align-items: center;
